@@ -1,4 +1,4 @@
-FROM debain:stable-slim
+FROM debian:stable-backports
 
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
