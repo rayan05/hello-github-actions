@@ -1,4 +1,4 @@
-FROM debain:9-slim
+FROM debain:stable-slim
 
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
